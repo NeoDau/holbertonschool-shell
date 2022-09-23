@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt head > 10 wc -l
+watch -n 1 'ls -Art | tail -n 1'
